@@ -33,6 +33,7 @@ public class _06_TestQueryApi {
     ){
         return testService.findAllByNameByQuerydsl(name);
     }
+    // 아래는 단일 검색
 //    public List<TestEntity> queryQuerydsl(){
 //        return testService.findAllByNameByQuerydsl("juju");
 //    }
